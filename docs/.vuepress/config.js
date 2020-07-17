@@ -5,8 +5,12 @@ module.exports = {
   themeConfig: {
     logo: '/logo.png',
     search: false,
-    sidebar: [
-      '/',
+    sidebar: [     
+      {
+        title: 'Alpha Design System',
+        children: [
+          '/',
+          '/design_principles.md',]},
       {
         title: '基础-foundation',
         children: [
